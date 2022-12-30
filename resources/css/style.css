@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,700;1,6..96,400;1,6..96,500;1,6..96,700&family=Kalam:wght@300;400;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  background-color: rgb(92, 159, 193);
+  font-family: 'Bodoni Moda', serif;
+}
+
+span{
+font-family: 'Bodoni Moda', serif;
+font-weight: bold;
+}
+
+header{
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+header nav{
+    width: 50%;
+    height: 50px;
+    margin:  auto;
+    background-color: #f27a86;
+    border: #ccc solid 2px;
+    border-radius: 15px;
+}
+ header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+ }
+
+ header nav ul li{
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+    font-weight: 600;
+ }
+ nav ul li a{
+    color: #000;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    color:#fff;
+    font-style:italic;
+    text-decoration: underline ;
+    transition: all 200ms linear ;
+ }
+
+
+#elements, #attributes{
+    width: 90%;
+    min-height: 400px;
+    margin: 1.25rem auto;
+    padding: 1.6rem;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 7px;
+}
+
+h2{
+    font-size: 1.75rem;
+}
+
+table{
+    border: #f27a86 solid 2px;
+    border-radius: 5px;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 0;
+}
+
+
+
+td, th{
+    border-bottom: #f27a86 solid 2px;
+    padding: 0.5rem;
+}
+
+th{
+    font-size: 1.25rem;
+}
+
+td:first-of-type{
+    font-weight: 600;
+    font-family: 'Kalam', cursive;
+}
+
+tr:last-of-type td{
+    border-bottom: none;
+}
+
+#attributes table, #attributes td, #attributes th{
+  border-color: #ff0088;
+}
+
+
+
